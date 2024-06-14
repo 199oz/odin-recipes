@@ -56,7 +56,7 @@
 
 .salmon::before{
     content: '';
-    background-image: url(/image/top-view-fresh-delicious-chinese-food-dark-background.jpg);
+    background-image: url(../image/top-view-fresh-delicious-chinese-food-dark-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
