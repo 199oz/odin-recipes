@@ -1,0 +1,74 @@
+.description{
+    border: solid 2px green;
+    padding: 10px;
+    text-align: center;
+    width: 600px;
+    height: 250px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.ingredient{
+    border: 2px solid green;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+}
+
+.step{
+    border: 2px solid green;
+    width: 500px;
+    padding: 10px;
+}
+
+.ingredients{
+    text-align: center;
+}
+
+.steps{
+    text-align: center;
+}
+.teriyaki-img{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.salmon-img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shrimp-img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.salmon::before{
+    content: '';
+    background-image: url(/image/top-view-fresh-delicious-chinese-food-dark-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+}
+.header{
+    text-align: center;
+}
